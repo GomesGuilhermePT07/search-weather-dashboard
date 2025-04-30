@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GG | Weather Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <h1>🌤️ Clima Atual</h1>
+
+        <div class="input-group">
+            <input type="text" id="city-input" placeholder="Escreve o nome da cidade...">
+            <button onclick="getWeather()">Ver Clima</button>
+        </div> <!-- input-group -->
+
+        <div class="weather-box" id="weather-box">
+            <!-- Os dados do clima võa ficar aqui -->
+        </div> <!-- weather-box -->
+    </div> <!-- container -->
+
+    <script src="script.js"></script>
+</body>
+</html>
