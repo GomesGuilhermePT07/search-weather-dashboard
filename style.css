@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background-color: #2f2f2f;
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #3a3a3a;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #a259ff;
+}
+
+.input-group{
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"]{
+    flex: 1;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    background: #505050;
+    color: #fff;
+    font-size: 1rem;
+}
+
+button{
+    padding: 0.75rem 1.2rem;
+    background-color: #a259ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: #7e2ee3;
+}
+
+.weather-box{
+    background: #444;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.weather-box h2{
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+.weather-box img{
+    width: 80px;
+    height: 80px;
+}
